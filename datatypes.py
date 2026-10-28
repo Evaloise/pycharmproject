@@ -15,7 +15,21 @@ fruits = ("Banana", "Cherry", "Mango", "Orange") #Taple ordered but unchangeable
 Countries = { "China", "Italy", "France", "Germany"}#Set - unordered and unchangeable
 #Dictionary
 
-#array
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict.get("model"))
+
+## creating an array of cars
+cars = ["Ford", "Volvo", "BMW"]
+
+# adding a new car
+cars.append("Honda")
+
+# displaying the cars
+print(cars)
 
 print(Countries)
 print(fruits)
